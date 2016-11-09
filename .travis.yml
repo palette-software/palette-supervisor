@@ -5,7 +5,7 @@ env:
     - DEPLOY_PATH=/var/palette-rpm-repo
     - DEPLOY_USER=palette-rpm
     # DEPLOY_PASS
-    - secure: n7vTUZEnzyrdfV1p2zCh/ejIQrhco6C2oVedjVqZNsg7C8AXVJpGOreS6T4LwbHihmJZWMLgPFKpe7j5IKI04M1GeAM1ZwdltyBiltcpxnlim0SS4tfJYID8GCgvGt4bp6w5meoXqwdTL9vhMsjX6a2iUJ5mMr/JRoAz3x12JhcI8/S04GxLrKlL9nTie8zupaSHJtBXkJPlQeKdoczEAN/A4Hc1dA4hb/PqbZor0613ok1/mnWYyVGfNiJhrgFLD3nP0EQCEeYWI9VQjFOKVmbBLw1XllUDzWCGLZCP/x/WLM+8c/uz6W/RRq3EqM9Ijc/h5N/W+DJrZlUgLjuaGadLS4H0BL5D+cnLFEdCfLbvnsICce89VOIUWftf80lAueNaSVyCHyuw6yLuqGaNKLrEGrabA7EpsylJavrORiukkO9kKlSoto1ZfVEZa4DZP5ZKgOw4/Pr1yhONqMZEqhf8R5VuiAdoFkPHd4uHL/jpPoS06Un6NnszXcRNqXxbB3jcY1sFiSXsPYXFyK7owcFqvxfLkWozvHzmPn8XAnjy6brNBTYc9m4DRQrByHHrBimLzmtU2d8Sedc9dQEZDwJkhUS5d/SzL2IyXsxGkUP7AyGFohr2HOJhevfivdBmKcA5El2VNrwv1emCrO/JAENQrquT95NXR4dt76+NThM=
+    - secure: CcmCsAfHlekgxsoYTNiFemACIqOP5SOl7cxCG4RpVQtw130/CQW5DECRO8NTs5MtguM1Z9bqXt3DdHT7lfPpIPI1nb0YT6bQ2VYx98x34dMOnJYjOE+yI8rZajcR1a0ve9gT5OOzO3JOhc/ufx74sSZfprvPNkkkCLMlwhPWSQI9J+3FimDAyNY26RWAnIb+BCev+lg1p7JNAIy+8F4Dv/mOvZ4Fhx/a2SSgB3RaXcW5j1S1XIqlWdK0rlqQ7Xp2fDmizsUN+SpDYmLNdZRnXJ94tF8zfhlqDvIScj3VxsWgfFhXP6XL5TTCXDvjFdABrEGodlr3OgRX+7oL+qQZFKVOUGL21AYJPkUg9FazLVd52fjxd4UJYLZwb4kW1D/6WSiK9RJDbfb/GvvTSh6u6YAgI4+5RQRmfUzB8CruFQDzgnnEF+/ZOHPDWet193b16eStFCJWlAkFfy9u8uakfzppqVCip6dqRJ3dNYGJLTFmD93gQWfn2SWUM3GBk7jlGJHZOXqT1MBmDZp0UbqDJgiGOeS9qQW1ZyWkNURgWYlUZNVfZYiggYoht65ZFXEYBH5g5grvmkzkR3dK6iLVpxFB7olPjAgG1eV8evAsJ6nf9RPItchoFYCuhjNP1fS/TZqVlxvauf9NOUao6TY7eFuQwjWDbXvgI4kgQGMD5CM=
 addons:
   apt:
     packages:
@@ -20,7 +20,6 @@ deploy:
   skip_cleanup: true
   on:
     branch: master
-
 notifications:
   email:
     on_success: never
