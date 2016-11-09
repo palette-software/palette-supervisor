@@ -57,6 +57,11 @@ Provides: supervisor
 %description
 This package contains a newer version of Supervisor for Centos6
 
+%install
+mkdir -p %{buildroot}/etc/supervisord.d
+mkdir -p %{buildroot}/var/run/supervisor
+mkdir -p %{buildroot}/var/log/supervisor
+
 %clean
 # noop
 
