@@ -72,6 +72,7 @@ pip install meld3==1.0.1
 pip install supervisor==%{version}
 
 chkconfig --add supervisord
+chkconfig supervisord on
 service supervisord start
 
 %files
